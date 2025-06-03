@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url('fonts/SF-Pro-Display-Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url('fonts/SF-Pro-Display-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'SF Pro', sans-serif;
+    background-color: #F7F9FC;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+    color: #2E3A59;
+}
