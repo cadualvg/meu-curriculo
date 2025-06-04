@@ -15,12 +15,74 @@
 body {
     font-family: 'SF Pro', sans-serif;
     background-color: #F7F9FC;
-    margin: 0;
     padding: 20px;
     text-align: center;
 }
 
-h1{
+.titulos{
+    font-family: 'SF Pro', sans-serif;
     font-weight: bold;
     color: #2E3A59;
+}
+
+#menu {
+margin: 0;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+#menu ul, #menu li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+    background-color: #e5e6e7a2;
+    padding: 18px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+#menu a:hover {
+    color: #1a1a1a;
+    background-color: #e7e8e9;
+    border-radius: 10px;
+}
+#menu a:active {
+    color: #1a1a1a;
+    background-color: #d0d1d2;
+    border-radius: 10px;
+}
+
+#wpp {
+position: relative;
+cursor: pointer;
+text-decoration: none;
+color: #007bff;
+}
+
+#wpp::after {
+content:'Clique aqui para entrar em contato comigo via WhatsApp' attr(data-tooltip);
+position: absolute;
+top: 50%;
+left: 100%;
+transform: translateY(-50%);
+background-color: rgba(0, 0, 0, 0.8);
+color: white;
+padding: 5px;
+border-radius: 5px;
+white-space: nowrap;
+display: none;
+font-size: 0.875rem;
+z-index: 10;
+}
+
+#wpp:hover::after {
+display: block;
 }
