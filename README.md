@@ -2,8 +2,7 @@ Currículo Online – Carlos Eduardo Alvarenga Goes
 Este repositório contém meu currículo profissional desenvolvido em HTML e CSS. O objetivo é apresentar minhas informações de forma clara, acessível e responsiva para recrutadores e visitantes interessados em meu perfil.
 
 Acesse online:
-[Currículo Completo](https://seu-usuario.github.io/repositorio/curriculo.html)
-[Currículo Resumido](https://seu-usuario.github.io/repositorio/curriculo-resumido.html)
+[Currículo Completo][https://cadualvg.github.io/meu-curriculo]
 
 Tecnologias utilizadas:
 - HTML5
