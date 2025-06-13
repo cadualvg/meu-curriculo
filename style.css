@@ -82,12 +82,10 @@ nav {
 #wpp {
 position: relative;
 cursor: pointer;
-text-decoration: none;
-color: #007bff;
 }
 
 #wpp::after {
-content:'Clique aqui para entrar em contato comigo via WhatsApp' attr(data-tooltip);
+content:'Clique aqui para entrar em contato comigo via WhatsApp.' attr(data-tooltip);
 position: absolute;
 top: 50%;
 left: 120%;
@@ -103,6 +101,81 @@ z-index: 10;
 }
 
 #wpp:hover::after {
+display: block;
+}
+
+#mail {
+position: relative;
+cursor: pointer;
+}
+
+#mail::after {
+content:'Clique aqui para entrar em contato comigo via email.' attr(data-tooltip);
+position: absolute;
+top: 50%;
+left: 120%;
+transform: translateY(-50%);
+background-color: rgba(0, 0, 0, 0.8);
+color: white;
+padding: 5px;
+border-radius: 5px;
+white-space: nowrap;
+display: none;
+font-size: 0.875rem;
+z-index: 10;
+}
+
+#mail:hover::after {
+display: block;
+}
+
+#linkedin {
+position: relative;
+cursor: pointer;
+}
+
+#linkedin::after {
+content:'Clique aqui para acessar meu perfil no LinkedIn.' attr(data-tooltip);
+position: absolute;
+top: 50%;
+left: 120%;
+transform: translateY(-50%);
+background-color: rgba(0, 0, 0, 0.8);
+color: white;
+padding: 5px;
+border-radius: 5px;
+white-space: nowrap;
+display: none;
+font-size: 0.875rem;
+z-index: 10;
+}
+
+#linkedin:hover::after {
+display: block;
+}
+
+#github {
+position: relative;
+cursor: pointer;
+}
+
+#github::after {
+content:'Clique aqui para acessar meus repositórios no GitHub' attr(data-tooltip);
+position: absolute;
+top: 50%;
+left: 120%;
+transform: translateY(-50%);
+background-color: rgba(0, 0, 0, 0.8);
+color: white;
+padding: 5px;
+border-radius: 5px;
+white-space: nowrap;
+display: none;
+font-size: 0.875rem;
+z-index: 10;
+}
+
+#github:hover::after {
 display: block;
 }
 
@@ -179,4 +252,39 @@ height: 120px;
 border-radius: 50%;
 object-fit: cover;
 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* ===== Currículo Resumido ===== */
+
+.resumo {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.resumo h1 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
+
+.resumo-conteudo {
+max-width: 800px;
+margin: auto;
+padding: 0 20px;
+}
+
+.resumo-conteudo h3 {
+margin-top: 30px;
+color: #274060;
+}
+
+.resumo-conteudo p,
+.resumo-conteudo li {
+font-size: 1.05rem;
+line-height: 1.6;
+}
+
+.resumo-conteudo ul {
+padding-left: 20px;
+list-style-type: disc;
 }
