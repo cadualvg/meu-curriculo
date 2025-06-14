@@ -73,11 +73,32 @@ nav {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
+
+nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
+padding: 10px 0;
+}
+
+nav li {
+list-style: none;
+}
+
+nav a {
+text-decoration: none;
+padding: 8px 12px;
+font-weight: 600;
+color: #1e293b;
+}
+
 #menu a:hover {
     color: #1a1a1a;
     background-color: #e7e8e9;
     border-radius: 10px;
 }
+
 #menu a:active {
     color: #1a1a1a;
     background-color: #d0d1d2;
