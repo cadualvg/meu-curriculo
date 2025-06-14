@@ -45,28 +45,6 @@ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     color: #2E3A59;
 }
 
-#menu {
-margin: 0;
-}
-
-#menu a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-    padding: 10px 15px;
-}
-
-#menu a, #contato a {
-    color: #274060;
-}
-
-#menu ul, #menu li {
-	display: inline;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
 nav {
 background-color: #f1f5f9;
 padding: 10px;
